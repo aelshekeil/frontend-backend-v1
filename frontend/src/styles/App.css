@@ -1,0 +1,24 @@
+/* Custom styles for Tarim Tours */
+.hero-gradient {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.service-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+/* Add a class for Arabic font */
+.font-arabic {
+  font-family: 'Cairo', sans-serif;
+}
+
+/* Add a class for RTL adjustments */
+[dir="rtl"] .space-x-8 > :not([hidden]) ~ :not([hidden]) {
+    margin-right: 2rem;
+    margin-left: 0;
+}

@@ -1,9 +1,9 @@
 import { HashRouter as Router } from 'react-router-dom';
 import { CartProvider } from './components/common/CartProvider';
 import Header from './components/layout/Header';
-import RouterComponent from './components/layout/Router';
+import RouterComponent from './pages/Router';
 import Footer from './components/layout/Footer';
-import WhatsAppButton from './components/common/WhatsAppButton'; // Import the WhatsAppButton component
+import WhatsAppButton from './pages/WhatsAppButton';
 import { useTranslation } from 'react-i18next';
 import { useEffect } from 'react';
 
